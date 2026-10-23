@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Owen Holbrook — Portfolio",
+      "hasCanvas": false,
+      "bodyTextLen": 5968,
+      "bodyTextHash": "c72c4bd6f388afa7f6ff62cb2246ee7c3cbdb9288dab65d4cddad09b868fc149",
+      "bodyTextPrefix": "Skip to work Owen Holbrook Work About Experience CV Contact Get ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Owen Holbrook — Portfolio",
+      "hasCanvas": false,
+      "bodyTextLen": 5927,
+      "bodyTextHash": "00e06dc6bbf13ea0b318be097548ccd537f350b8b58137b6fb653d6e710c00ff",
+      "bodyTextPrefix": "Skip to work Owen Holbrook Menu PORTFOLIO · DERBY, ENGLAND Owen ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

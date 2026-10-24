@@ -187,6 +187,17 @@ export function Portfolio() {
       </header>
 
       <main id="top">
+        <section aria-label="Portfolio cover" className="bg-night px-5 py-10 md:py-16">
+          <div className="mx-auto max-w-6xl">
+            <img
+              src={`${import.meta.env.BASE_URL}og.jpg`}
+              alt="Owen Holbrook portfolio cover with an ouroboros illustration on a cream card"
+              width={1200}
+              height={630}
+              className="block w-full"
+            />
+          </div>
+        </section>
         <section className="bg-night text-paper">
           <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 md:grid-cols-12 md:py-24">
             <div className="md:col-span-7">

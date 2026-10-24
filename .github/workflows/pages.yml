@@ -19,7 +19,9 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-      - run: npm ci
+      - name: Reconcile exported dependency lock
+        run: npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+      - run: npm ci --no-audit --no-fund
       - name: Build static Grok portfolio and include ChatGPT portfolio
         run: npx vite build --config vite.pages.config.ts
       - run: touch dist-pages/.nojekyll
